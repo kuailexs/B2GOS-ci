@@ -6,9 +6,10 @@
 name: Build System Image
 
 on: 
-  push:
-    branches:
-      - v2.5
+  workflow_dispatch
+#  push:
+#    branches:
+#      - v2.5
 #  release:
 #    types: [published]
 #  schedule:
